@@ -1,0 +1,121 @@
+
+/*css reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+#landing {
+	
+	background: 
+		linear-gradient( 
+			rgba(0, 0, 0, 0.59),
+			rgba(0, 0, 0, 0.59)
+	),
+
+		url('./images/bg.jpg');
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	
+	
+
+}
+
+
+/*navbar / logo section code start*/
+
+nav {
+	width: 100%;
+	height: 68px;
+	opacity: 0px;
+	background-color:#000;
+}
+/*navbar / logo section code end*/
+
+
+
+
+
+/*Landing section code start*/
+
+div a {
+	font-family: Montserrat;
+	color:  #fff;
+}
+
+
+#link {
+	font-family: Montserrat;
+	color:#fff;
+}
+
+#about-col-1 {
+	margin-top: 5rem !important;
+	padding: 8rem !important;
+
+}
+
+#title-landing {
+
+	font-size: 3rem;
+	font-weight: 700;
+	color:#fff;
+}
+
+#disc {
+	font-size: 1rem;
+	color:#fff;
+}
+
+#me-img {
+	box-shadow: 10px 10px 18px black;
+}
+/*Landing section code end*/
+
+
+
+
+/*Project section code start*/
+
+.project h5 {
+	font-family: Montserrat;
+	font-size: 2rem;
+}
+
+/*Project section code end*/
+
+
+
+
+/* Tools section code start*/
+.tools {
+	
+}
+
+
+.tools #img-style {
+	width: 200px;
+	box-shadow: 5px 5px 13px black;
+	border-radius: 3rem;
+}
+
+.tools #img-style2 {
+	width: 200px;
+	height: 200px;
+	box-shadow: 5px 5px 13px black;
+	border-radius: 3rem;
+}
+
+ .tools #img-style3 {
+	width: 210px;
+	height: 200px;
+	box-shadow: 5px 5px 13px black;
+	border-radius: 3rem;
+}
+
+/* Tools section code end*/
