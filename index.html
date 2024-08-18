@@ -54,7 +54,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" id="logo">
-                    <img src="./images/logo.jpg" width="35" height="35" alt="Logo" class="d-inline-block align-top" loading="lazy">
+                    <img src="./images/logo.jpg" alt="Logo" class="d-inline-block align-top" loading="lazy">
                 Web developer
                 </a>
                 <a class="navbar-brand" href="#"></a>
@@ -91,10 +91,12 @@
 
         <section id="landing" class="container-fluid py-5">
             <div id="landing-row" class="row">
-                <div id="about-col-1" class="col-lg-6 p-5">
+                <div id="about-col-1" class="col-lg-6 col-md-12 col-sm-12 p-5">
                     <h3 id="title-landing" class="mt-5">Hello It's Me</h3>
                     <h1 id="title-landing">Reymark Angelino</h1>
                     <h3 id="title-landing">I am Full-Stack Web Developer</h3>
+
+
                     <p id="disc">
                         I will help you to transform your digital dreams into reality and unleash your digital potential with us.
                         I will create designs that inspire, captivate, and convert, crafted with passion and precision.
@@ -102,7 +104,7 @@
                 </div>
 
                 <div id="about-col-2" class="col-lg-6">
-                    <img src="./images/me.jpg" id="me-img" class="img-fluid rounded-circle">
+                    <img src="./images/me.jpg" id="me-img" class="img-fluid d-none d-sm-block rounded-circle">
                 </div>
             </div>
         </section>
@@ -121,67 +123,86 @@
 
 
         <section id="projects" class="project">
-               <div class="bg-dark text-light min-vh-100 p-5" >
-                  
-                  <h2 class="mb-3 text-center">My Projects</h2>
-                  <!-- Other Project Container Start -->
-
-                  <div class="p-md-5 d-flex justify-content-center d-grid gap-5">
-
-                     <!-- HTML card start -->
-                     <div class="card  w-25 bg-secondary col-12 col-md-6 col-lg-4 d-flex" >
-                       <div class="card-body">
-                        <img src="./images/html.jpg" class="card-img-top" alt="...">
-                         <h5 class="card-title">HTML</h5>
-                         <h6 class="card-subtitle mb-2 text-muted">Programming Basic</h6>
-                         <p class="card-text">
-
-                             HyperText Markup Language, or HTML, is a common markup language for building a webpage's basic framework and adding features like text, graphics, tables, forms, and so forth. Although HTML is a straightforward language, you must practice producing HTML code until you feel confident. Every front-end developer should also be proficient with HTML to enhance their careers. 
-
-                        </p>
-                        
-                       </div>
-                     </div>
-                       <!-- HTML card end -->
+            <h1 class="text-center p-5">Projects</h1>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card custom-card">
+                            <img src="./images/html.JPG" class="card-img-top img-fluid" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom Card Title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
 
 
-                     
-
-                       <div class="card w-25 bg-secondary col-12 col-md-6 col-lg-4 d-flex">
-                         <div class="card-body">
-                           <img src="./images/bootstrap.jpg" class="card-img-top" alt="...">
-                           <h5 class="card-title">Bootstrap</h5>
-                           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                           <p class="card-text"> 
-
-                                Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs. As a framework, Bootstrap includes the basics for responsive web development, so developers only need to insert the code into a pre-defined grid system.
-
-                           </p>
-                          
-                         </div>
-                       </div>
+                    <div class="col-md-4">
+                        <div class="card custom-card">
+                            <img src="./images/html.JPG" class="card-img-top img-fluid" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom Card Title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
 
 
 
-                       <div class="card w-25 bg-secondary col-12 col-md-6 col-lg-4 d-flex">
-                         <div class="card-body">
-                           <img src="./images/nodejs.jpg" class="card-img-top" alt="...">
-                           <h5 class="card-title">Nodejs</h5>
-                           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                           <p class="card-text"> 
+                    <div class="col-md-4">
+                        <div class="card custom-card">
+                            <img src="./images/html.JPG" class="card-img-top img-fluid" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom Card Title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
 
-                                Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!
-                                Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
-                                A Node.js app runs in a single process, without creating a new thread for every request.
-                           </p>
-                          
-                         </div>
-                       </div>
 
-                  </div>
 
-               </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="card custom-card">
+                            <img src="./images/html.JPG" class="card-img-top img-fluid" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom Card Title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
 
+
+
+                    <div class="col-md-4 mt-5">
+                        <div class="card custom-card">
+                            <img src="./images/html.JPG" class="card-img-top img-fluid" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom Card Title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4 mt-5">
+                        <div class="card custom-card">
+                            <img src="./images/html.JPG" class="card-img-top img-fluid" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom Card Title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
               
         </section>
         <!-- Projects section code end -->
