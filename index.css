@@ -186,15 +186,15 @@ div a {
 
     .custom-col #title-landing {
        color: red;
-       font-size: 7rem;
+       font-size: 5rem;
     }
 
     .custom-col #disc {
-    	font-size: 3rem;
+    	font-size: 2rem;
     }
 
     html {
-		font-size: 30%;
+		font-size: 50%;
 	}
    
 }
