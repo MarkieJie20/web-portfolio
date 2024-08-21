@@ -177,7 +177,12 @@ div a {
 /* Tools section code end*/
 
 
-
+iframe {
+	width: 400px;
+	height: 300px;
+	border: 0;
+	
+}
 
 
 /*Media query*/
